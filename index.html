@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AquaDex v1.1.1-beta</title>
+<title>AquaDex v1.1.2-beta</title>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <style>
@@ -388,7 +388,7 @@ html,body{height:100%;background:var(--bg);font-family:'DM Sans',sans-serif;colo
 <script>
 const SUPABASE_URL = "https://wodsqxzkoxuozxmjllpf.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndvZHNxeHprb3h1b3p4bWpsbHBmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMzkwNTQsImV4cCI6MjA5NTkxNTA1NH0.dqMqqd4Ns-j4-MHOTCAzfzyKGA4NW7n8dm3OCKTQb-c";
-const GITHUB_BASE  = "https://TON-PSEUDO.github.io/aquadex";
+const GITHUB_BASE  = "https://byts3146.github.io/aquadex";
 let USER_ID = null; // défini après connexion
 </script>
 
@@ -1125,7 +1125,7 @@ function updateHeader() {
   const n = SPECIES.length, oc = obsCount();
   document.getElementById("h-total").textContent = n;
   document.getElementById("h-obs").textContent = oc;
-  document.getElementById("logo-sub").textContent = `v1.1.1-beta · ${n} espèces`;
+  document.getElementById("logo-sub").textContent = `v1.1.2-beta · ${n} espèces`;
   document.getElementById("prog").style.width = n ? (oc/n*100)+"%" : "0%";
 }
 
